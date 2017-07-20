@@ -2,7 +2,7 @@
 //  NewsViewController.m
 //  Fresh7
 //
-//  Created by Foh Chuan Heng on 1/21/11.
+//  Created by chen on 1/21/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 #import "NewsViewController.h"

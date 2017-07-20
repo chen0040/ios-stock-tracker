@@ -2,7 +2,7 @@
 //  NewsPageViewController.m
 //  I2Bot
 //
-//  Created by Foh Chuan Heng on 1/27/11.
+//  Created by chen on 1/27/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 

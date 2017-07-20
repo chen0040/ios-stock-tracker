@@ -1,7 +1,7 @@
 //
 //  PricePageViewController.m
 //
-//  Created by Foh Chuan Heng on 1/23/11.
+//  Created by chen on 1/23/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
