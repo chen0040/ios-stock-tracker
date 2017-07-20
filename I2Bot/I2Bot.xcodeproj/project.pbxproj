@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* I2BotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* I2BotAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		4479244712EC145A005A6DBF /* UIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4479244612EC145A005A6DBF /* UIUtil.m */; };
+		4479247612EC18BB005A6DBF /* Price.m in Sources */ = {isa = PBXBuildFile; fileRef = 4479247512EC18BB005A6DBF /* Price.m */; };
+		4479261A12EC2FFC005A6DBF /* PriceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4479261912EC2FFC005A6DBF /* PriceTableViewCell.m */; };
+		4479261E12EC303A005A6DBF /* PriceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4479261D12EC303A005A6DBF /* PriceTableViewCell.xib */; };
+		447927EC12EC613C005A6DBF /* PricePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447927EA12EC613C005A6DBF /* PricePageViewController.m */; };
+		447927ED12EC613C005A6DBF /* PricePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447927EB12EC613C005A6DBF /* PricePageViewController.xib */; };
+		447B962012ED0C3E00DE11C9 /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 447B961F12ED0C3E00DE11C9 /* green_bg.png */; };
+		448D904912EBBD26005D1079 /* cover320x416.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D904612EBBD26005D1079 /* cover320x416.png */; };
+		448D904B12EBBD26005D1079 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D904812EBBD26005D1079 /* Default.png */; };
+		448D905212EBBD76005D1079 /* PricesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D904D12EBBD76005D1079 /* PricesViewController.m */; };
+		448D905312EBBD76005D1079 /* PricesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448D904E12EBBD76005D1079 /* PricesViewController.xib */; };
+		448D905412EBBD76005D1079 /* SupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D905012EBBD76005D1079 /* SupportViewController.m */; };
+		448D905512EBBD76005D1079 /* SupportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448D905112EBBD76005D1079 /* SupportViewController.xib */; };
+		448D905C12EBBD81005D1079 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D905712EBBD81005D1079 /* NewsViewController.m */; };
+		448D905D12EBBD81005D1079 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448D905812EBBD81005D1079 /* NewsViewController.xib */; };
+		448D905E12EBBD81005D1079 /* PortfolioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D905A12EBBD81005D1079 /* PortfolioViewController.m */; };
+		448D905F12EBBD81005D1079 /* PortfolioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448D905B12EBBD81005D1079 /* PortfolioViewController.xib */; };
+		448D906F12EBBDFA005D1079 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D906412EBBDFA005D1079 /* NSObject+SBJSON.m */; };
+		448D907012EBBDFA005D1079 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D906612EBBDFA005D1079 /* NSString+SBJSON.m */; };
+		448D907112EBBDFA005D1079 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D906812EBBDFA005D1079 /* SBJSON.m */; };
+		448D907212EBBDFA005D1079 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D906A12EBBDFA005D1079 /* SBJsonBase.m */; };
+		448D907312EBBDFA005D1079 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D906C12EBBDFA005D1079 /* SBJsonParser.m */; };
+		448D907412EBBDFA005D1079 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D906E12EBBDFA005D1079 /* SBJsonWriter.m */; };
+		448D907D12EBBEC6005D1079 /* tabbar_prices.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D907912EBBEC6005D1079 /* tabbar_prices.png */; };
+		448D907E12EBBEC6005D1079 /* tabbar_news.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D907A12EBBEC6005D1079 /* tabbar_news.png */; };
+		448D907F12EBBEC6005D1079 /* tabbar_portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D907B12EBBEC6005D1079 /* tabbar_portfolio.png */; };
+		448D908012EBBEC6005D1079 /* tabbar_support.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D907C12EBBEC6005D1079 /* tabbar_support.png */; };
+		448D918512EBD04E005D1079 /* toolbar_wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D918212EBD04E005D1079 /* toolbar_wrench.png */; };
+		448D918612EBD04E005D1079 /* toolbar_toolbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D918312EBD04E005D1079 /* toolbar_toolbox.png */; };
+		448D918712EBD04E005D1079 /* toolbar_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 448D918412EBD04E005D1079 /* toolbar_refresh.png */; };
+		448D919F12EBD1A5005D1079 /* PricesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D919E12EBD1A5005D1079 /* PricesTableViewController.m */; };
+		448D928412EBFD62005D1079 /* PriceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D928312EBFD62005D1079 /* PriceManager.m */; };
+		44958EA012EEEFE700406529 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44958E9F12EEEFE700406529 /* NewsTableViewController.m */; };
+		44A36B7312ED7C460014E5B7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A36B7212ED7C460014E5B7 /* icon.png */; };
+		44A36B7712ED7C7B0014E5B7 /* down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A36B7412ED7C7B0014E5B7 /* down_arrow.png */; };
+		44A36B7812ED7C7B0014E5B7 /* up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A36B7512ED7C7B0014E5B7 /* up_arrow.png */; };
+		44A36B7912ED7C7B0014E5B7 /* balanced_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A36B7612ED7C7B0014E5B7 /* balanced_arrow.png */; };
+		44A36BB612ED83600014E5B7 /* i2bot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A36BB512ED83600014E5B7 /* i2bot2.png */; };
+		44A36BC912ED85CE0014E5B7 /* i2bot.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A36BC812ED85CE0014E5B7 /* i2bot.png */; };
+		44A8FA6F12F1456B005B242F /* NewsArticleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A8FA6E12F1456B005B242F /* NewsArticleManager.m */; };
+		44A8FA9612F14AD9005B242F /* NewsArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A8FA9512F14AD9005B242F /* NewsArticle.m */; };
+		44A8FAAF12F14EAF005B242F /* NewsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A8FAAD12F14EAF005B242F /* NewsPageViewController.m */; };
+		44A8FAB012F14EAF005B242F /* NewsPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44A8FAAE12F14EAF005B242F /* NewsPageViewController.xib */; };
+		44FE64C812F16FC200FF20BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FE64C712F16FC200FF20BC /* QuartzCore.framework */; };
+		44FE651912F1742300FF20BC /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FE651812F1741E00FF20BC /* libCorePlot-CocoaTouch.a */; };
+		44FE654512F17A6900FF20BC /* PricePlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FE654312F17A6900FF20BC /* PricePlotViewController.m */; };
+		44FE654612F17A6900FF20BC /* PricePlotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FE654412F17A6900FF20BC /* PricePlotViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44FE651712F1741E00FF20BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44FE650E12F1741D00FF20BC /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+		44FE651A12F1743200FF20BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44FE650E12F1741D00FF20BC /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC9B83460FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* I2BotAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I2BotAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* I2BotAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I2BotAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* I2Bot_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I2Bot_Prefix.pch; sourceTree = "<group>"; };
+		4479244512EC145A005A6DBF /* UIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtil.h; sourceTree = "<group>"; };
+		4479244612EC145A005A6DBF /* UIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIUtil.m; sourceTree = "<group>"; };
+		4479247412EC18BB005A6DBF /* Price.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Price.h; sourceTree = "<group>"; };
+		4479247512EC18BB005A6DBF /* Price.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Price.m; sourceTree = "<group>"; };
+		4479261812EC2FFC005A6DBF /* PriceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceTableViewCell.h; sourceTree = "<group>"; };
+		4479261912EC2FFC005A6DBF /* PriceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceTableViewCell.m; sourceTree = "<group>"; };
+		4479261D12EC303A005A6DBF /* PriceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PriceTableViewCell.xib; sourceTree = "<group>"; };
+		447927E912EC613C005A6DBF /* PricePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PricePageViewController.h; sourceTree = "<group>"; };
+		447927EA12EC613C005A6DBF /* PricePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PricePageViewController.m; sourceTree = "<group>"; };
+		447927EB12EC613C005A6DBF /* PricePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PricePageViewController.xib; path = Classes/PricePageViewController.xib; sourceTree = "<group>"; };
+		447B961F12ED0C3E00DE11C9 /* green_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_bg.png; sourceTree = "<group>"; };
+		448D904612EBBD26005D1079 /* cover320x416.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover320x416.png; sourceTree = "<group>"; };
+		448D904812EBBD26005D1079 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		448D904C12EBBD76005D1079 /* PricesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PricesViewController.h; sourceTree = "<group>"; };
+		448D904D12EBBD76005D1079 /* PricesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PricesViewController.m; sourceTree = "<group>"; };
+		448D904E12EBBD76005D1079 /* PricesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PricesViewController.xib; path = Classes/PricesViewController.xib; sourceTree = "<group>"; };
+		448D904F12EBBD76005D1079 /* SupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportViewController.h; sourceTree = "<group>"; };
+		448D905012EBBD76005D1079 /* SupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportViewController.m; sourceTree = "<group>"; };
+		448D905112EBBD76005D1079 /* SupportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SupportViewController.xib; path = Classes/SupportViewController.xib; sourceTree = "<group>"; };
+		448D905612EBBD81005D1079 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		448D905712EBBD81005D1079 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		448D905812EBBD81005D1079 /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewsViewController.xib; path = Classes/NewsViewController.xib; sourceTree = "<group>"; };
+		448D905912EBBD81005D1079 /* PortfolioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortfolioViewController.h; sourceTree = "<group>"; };
+		448D905A12EBBD81005D1079 /* PortfolioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortfolioViewController.m; sourceTree = "<group>"; };
+		448D905B12EBBD81005D1079 /* PortfolioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PortfolioViewController.xib; path = Classes/PortfolioViewController.xib; sourceTree = "<group>"; };
+		448D906212EBBDFA005D1079 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		448D906312EBBDFA005D1079 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		448D906412EBBDFA005D1079 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		448D906512EBBDFA005D1079 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		448D906612EBBDFA005D1079 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		448D906712EBBDFA005D1079 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		448D906812EBBDFA005D1079 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		448D906912EBBDFA005D1079 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		448D906A12EBBDFA005D1079 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		448D906B12EBBDFA005D1079 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		448D906C12EBBDFA005D1079 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		448D906D12EBBDFA005D1079 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		448D906E12EBBDFA005D1079 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		448D907912EBBEC6005D1079 /* tabbar_prices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_prices.png; sourceTree = "<group>"; };
+		448D907A12EBBEC6005D1079 /* tabbar_news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_news.png; sourceTree = "<group>"; };
+		448D907B12EBBEC6005D1079 /* tabbar_portfolio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_portfolio.png; sourceTree = "<group>"; };
+		448D907C12EBBEC6005D1079 /* tabbar_support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_support.png; sourceTree = "<group>"; };
+		448D918212EBD04E005D1079 /* toolbar_wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_wrench.png; sourceTree = "<group>"; };
+		448D918312EBD04E005D1079 /* toolbar_toolbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_toolbox.png; sourceTree = "<group>"; };
+		448D918412EBD04E005D1079 /* toolbar_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbar_refresh.png; sourceTree = "<group>"; };
+		448D919D12EBD1A5005D1079 /* PricesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PricesTableViewController.h; sourceTree = "<group>"; };
+		448D919E12EBD1A5005D1079 /* PricesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PricesTableViewController.m; sourceTree = "<group>"; };
+		448D928212EBFD62005D1079 /* PriceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceManager.h; sourceTree = "<group>"; };
+		448D928312EBFD62005D1079 /* PriceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceManager.m; sourceTree = "<group>"; };
+		44958E9E12EEEFE700406529 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		44958E9F12EEEFE700406529 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		44A36B7212ED7C460014E5B7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		44A36B7412ED7C7B0014E5B7 /* down_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_arrow.png; sourceTree = "<group>"; };
+		44A36B7512ED7C7B0014E5B7 /* up_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up_arrow.png; sourceTree = "<group>"; };
+		44A36B7612ED7C7B0014E5B7 /* balanced_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balanced_arrow.png; sourceTree = "<group>"; };
+		44A36BB512ED83600014E5B7 /* i2bot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i2bot2.png; sourceTree = "<group>"; };
+		44A36BC812ED85CE0014E5B7 /* i2bot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i2bot.png; sourceTree = "<group>"; };
+		44A8FA6D12F1456B005B242F /* NewsArticleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsArticleManager.h; sourceTree = "<group>"; };
+		44A8FA6E12F1456B005B242F /* NewsArticleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsArticleManager.m; sourceTree = "<group>"; };
+		44A8FA9412F14AD9005B242F /* NewsArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsArticle.h; sourceTree = "<group>"; };
+		44A8FA9512F14AD9005B242F /* NewsArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsArticle.m; sourceTree = "<group>"; };
+		44A8FAAC12F14EAF005B242F /* NewsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsPageViewController.h; sourceTree = "<group>"; };
+		44A8FAAD12F14EAF005B242F /* NewsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsPageViewController.m; sourceTree = "<group>"; };
+		44A8FAAE12F14EAF005B242F /* NewsPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NewsPageViewController.xib; path = Classes/NewsPageViewController.xib; sourceTree = "<group>"; };
+		44FE64C712F16FC200FF20BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44FE650E12F1741D00FF20BC /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "Toolkits/CorePlot/Source/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = "<group>"; };
+		44FE654212F17A6900FF20BC /* PricePlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricePlotViewController.h; path = ../PricePlotViewController.h; sourceTree = "<group>"; };
+		44FE654312F17A6900FF20BC /* PricePlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PricePlotViewController.m; path = ../PricePlotViewController.m; sourceTree = "<group>"; };
+		44FE654412F17A6900FF20BC /* PricePlotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PricePlotViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* I2Bot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "I2Bot-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DFDD1A7F130977B9008462F9 /* I2Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = I2Bot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FE651912F1742300FF20BC /* libCorePlot-CocoaTouch.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				44FE64C812F16FC200FF20BC /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				448D90DF12EBC3CF005D1079 /* Util */,
+				448D906112EBBDFA005D1079 /* JSON */,
+				448D905612EBBD81005D1079 /* NewsViewController.h */,
+				448D905712EBBD81005D1079 /* NewsViewController.m */,
+				448D905912EBBD81005D1079 /* PortfolioViewController.h */,
+				448D905A12EBBD81005D1079 /* PortfolioViewController.m */,
+				448D904C12EBBD76005D1079 /* PricesViewController.h */,
+				448D904D12EBBD76005D1079 /* PricesViewController.m */,
+				448D904F12EBBD76005D1079 /* SupportViewController.h */,
+				448D905012EBBD76005D1079 /* SupportViewController.m */,
+				1D3623240D0F684500981E51 /* I2BotAppDelegate.h */,
+				1D3623250D0F684500981E51 /* I2BotAppDelegate.m */,
+				448D919D12EBD1A5005D1079 /* PricesTableViewController.h */,
+				448D919E12EBD1A5005D1079 /* PricesTableViewController.m */,
+				448D928212EBFD62005D1079 /* PriceManager.h */,
+				448D928312EBFD62005D1079 /* PriceManager.m */,
+				4479247412EC18BB005A6DBF /* Price.h */,
+				44FE654212F17A6900FF20BC /* PricePlotViewController.h */,
+				44FE654312F17A6900FF20BC /* PricePlotViewController.m */,
+				4479247512EC18BB005A6DBF /* Price.m */,
+				4479261812EC2FFC005A6DBF /* PriceTableViewCell.h */,
+				4479261912EC2FFC005A6DBF /* PriceTableViewCell.m */,
+				447927E912EC613C005A6DBF /* PricePageViewController.h */,
+				447927EA12EC613C005A6DBF /* PricePageViewController.m */,
+				44958E9E12EEEFE700406529 /* NewsTableViewController.h */,
+				44958E9F12EEEFE700406529 /* NewsTableViewController.m */,
+				44A8FA6D12F1456B005B242F /* NewsArticleManager.h */,
+				44A8FA6E12F1456B005B242F /* NewsArticleManager.m */,
+				44A8FA9412F14AD9005B242F /* NewsArticle.h */,
+				44A8FA9512F14AD9005B242F /* NewsArticle.m */,
+				44A8FAAC12F14EAF005B242F /* NewsPageViewController.h */,
+				44A8FAAD12F14EAF005B242F /* NewsPageViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFDD1A7F130977B9008462F9 /* I2Bot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				44FE650E12F1741D00FF20BC /* CorePlot-CocoaTouch.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* I2Bot_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44FE654412F17A6900FF20BC /* PricePlotViewController.xib */,
+				44A8FAAE12F14EAF005B242F /* NewsPageViewController.xib */,
+				44A36BC812ED85CE0014E5B7 /* i2bot.png */,
+				44A36BB512ED83600014E5B7 /* i2bot2.png */,
+				44A36B7412ED7C7B0014E5B7 /* down_arrow.png */,
+				44A36B7512ED7C7B0014E5B7 /* up_arrow.png */,
+				44A36B7612ED7C7B0014E5B7 /* balanced_arrow.png */,
+				44A36B7212ED7C460014E5B7 /* icon.png */,
+				447B961F12ED0C3E00DE11C9 /* green_bg.png */,
+				447927EB12EC613C005A6DBF /* PricePageViewController.xib */,
+				448D918212EBD04E005D1079 /* toolbar_wrench.png */,
+				448D918312EBD04E005D1079 /* toolbar_toolbox.png */,
+				448D918412EBD04E005D1079 /* toolbar_refresh.png */,
+				448D907912EBBEC6005D1079 /* tabbar_prices.png */,
+				448D907A12EBBEC6005D1079 /* tabbar_news.png */,
+				448D907B12EBBEC6005D1079 /* tabbar_portfolio.png */,
+				448D907C12EBBEC6005D1079 /* tabbar_support.png */,
+				448D905112EBBD76005D1079 /* SupportViewController.xib */,
+				448D904E12EBBD76005D1079 /* PricesViewController.xib */,
+				448D905B12EBBD81005D1079 /* PortfolioViewController.xib */,
+				448D905812EBBD81005D1079 /* NewsViewController.xib */,
+				448D904612EBBD26005D1079 /* cover320x416.png */,
+				448D904812EBBD26005D1079 /* Default.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* I2Bot-Info.plist */,
+				4479261D12EC303A005A6DBF /* PriceTableViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				44FE64C712F16FC200FF20BC /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		448D906112EBBDFA005D1079 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				448D906212EBBDFA005D1079 /* JSON.h */,
+				448D906312EBBDFA005D1079 /* NSObject+SBJSON.h */,
+				448D906412EBBDFA005D1079 /* NSObject+SBJSON.m */,
+				448D906512EBBDFA005D1079 /* NSString+SBJSON.h */,
+				448D906612EBBDFA005D1079 /* NSString+SBJSON.m */,
+				448D906712EBBDFA005D1079 /* SBJSON.h */,
+				448D906812EBBDFA005D1079 /* SBJSON.m */,
+				448D906912EBBDFA005D1079 /* SBJsonBase.h */,
+				448D906A12EBBDFA005D1079 /* SBJsonBase.m */,
+				448D906B12EBBDFA005D1079 /* SBJsonParser.h */,
+				448D906C12EBBDFA005D1079 /* SBJsonParser.m */,
+				448D906D12EBBDFA005D1079 /* SBJsonWriter.h */,
+				448D906E12EBBDFA005D1079 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		448D90DF12EBC3CF005D1079 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4479244512EC145A005A6DBF /* UIUtil.h */,
+				4479244612EC145A005A6DBF /* UIUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		44FE650F12F1741D00FF20BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44FE651812F1741E00FF20BC /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* I2Bot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "I2Bot" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44FE651B12F1743200FF20BC /* PBXTargetDependency */,
+			);
+			name = I2Bot;
+			productName = I2Bot;
+			productReference = DFDD1A7F130977B9008462F9 /* I2Bot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "I2Bot" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 44FE650F12F1741D00FF20BC /* Products */;
+					ProjectRef = 44FE650E12F1741D00FF20BC /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* I2Bot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		44FE651812F1741E00FF20BC /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = 44FE651712F1741E00FF20BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				448D904912EBBD26005D1079 /* cover320x416.png in Resources */,
+				448D904B12EBBD26005D1079 /* Default.png in Resources */,
+				448D905312EBBD76005D1079 /* PricesViewController.xib in Resources */,
+				448D905512EBBD76005D1079 /* SupportViewController.xib in Resources */,
+				448D905D12EBBD81005D1079 /* NewsViewController.xib in Resources */,
+				448D905F12EBBD81005D1079 /* PortfolioViewController.xib in Resources */,
+				448D907D12EBBEC6005D1079 /* tabbar_prices.png in Resources */,
+				448D907E12EBBEC6005D1079 /* tabbar_news.png in Resources */,
+				448D907F12EBBEC6005D1079 /* tabbar_portfolio.png in Resources */,
+				448D908012EBBEC6005D1079 /* tabbar_support.png in Resources */,
+				448D918512EBD04E005D1079 /* toolbar_wrench.png in Resources */,
+				448D918612EBD04E005D1079 /* toolbar_toolbox.png in Resources */,
+				448D918712EBD04E005D1079 /* toolbar_refresh.png in Resources */,
+				4479261E12EC303A005A6DBF /* PriceTableViewCell.xib in Resources */,
+				447927ED12EC613C005A6DBF /* PricePageViewController.xib in Resources */,
+				447B962012ED0C3E00DE11C9 /* green_bg.png in Resources */,
+				44A36B7312ED7C460014E5B7 /* icon.png in Resources */,
+				44A36B7712ED7C7B0014E5B7 /* down_arrow.png in Resources */,
+				44A36B7812ED7C7B0014E5B7 /* up_arrow.png in Resources */,
+				44A36B7912ED7C7B0014E5B7 /* balanced_arrow.png in Resources */,
+				44A36BB612ED83600014E5B7 /* i2bot2.png in Resources */,
+				44A36BC912ED85CE0014E5B7 /* i2bot.png in Resources */,
+				44A8FAB012F14EAF005B242F /* NewsPageViewController.xib in Resources */,
+				44FE654612F17A6900FF20BC /* PricePlotViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* I2BotAppDelegate.m in Sources */,
+				448D905212EBBD76005D1079 /* PricesViewController.m in Sources */,
+				448D905412EBBD76005D1079 /* SupportViewController.m in Sources */,
+				448D905C12EBBD81005D1079 /* NewsViewController.m in Sources */,
+				448D905E12EBBD81005D1079 /* PortfolioViewController.m in Sources */,
+				448D906F12EBBDFA005D1079 /* NSObject+SBJSON.m in Sources */,
+				448D907012EBBDFA005D1079 /* NSString+SBJSON.m in Sources */,
+				448D907112EBBDFA005D1079 /* SBJSON.m in Sources */,
+				448D907212EBBDFA005D1079 /* SBJsonBase.m in Sources */,
+				448D907312EBBDFA005D1079 /* SBJsonParser.m in Sources */,
+				448D907412EBBDFA005D1079 /* SBJsonWriter.m in Sources */,
+				448D919F12EBD1A5005D1079 /* PricesTableViewController.m in Sources */,
+				448D928412EBFD62005D1079 /* PriceManager.m in Sources */,
+				4479244712EC145A005A6DBF /* UIUtil.m in Sources */,
+				4479247612EC18BB005A6DBF /* Price.m in Sources */,
+				4479261A12EC2FFC005A6DBF /* PriceTableViewCell.m in Sources */,
+				447927EC12EC613C005A6DBF /* PricePageViewController.m in Sources */,
+				44958EA012EEEFE700406529 /* NewsTableViewController.m in Sources */,
+				44A8FA6F12F1456B005B242F /* NewsArticleManager.m in Sources */,
+				44A8FA9612F14AD9005B242F /* NewsArticle.m in Sources */,
+				44A8FAAF12F14EAF005B242F /* NewsPageViewController.m in Sources */,
+				44FE654512F17A6900FF20BC /* PricePlotViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44FE651B12F1743200FF20BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CorePlot-CocoaTouch";
+			targetProxy = 44FE651A12F1743200FF20BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = I2Bot_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Toolkits/CorePlot/Source/framework/**";
+				INFOPLIST_FILE = "I2Bot-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = I2Bot;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = I2Bot_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Toolkits/CorePlot/Source/framework/**";
+				INFOPLIST_FILE = "I2Bot-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = I2Bot;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "I2Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "I2Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
