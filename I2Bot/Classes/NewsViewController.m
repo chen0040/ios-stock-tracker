@@ -34,7 +34,7 @@
 -(void) reloadData
 {
 	NewsArticleManager* pm=[NewsArticleManager sharedInstance];
-	[self loadFromUrl: [NSString stringWithFormat: @"http://www.czcodezone.com/quote/news.php?startrowindex=%d&rowcount=%d&newscomp=%@", pm.pageIndex * pm.pageSize, pm.pageSize, pm.codeType]];
+	[self loadFromUrl: [NSString stringWithFormat: @"http://myi2web/quote/news.php?startrowindex=%d&rowcount=%d&newscomp=%@", pm.pageIndex * pm.pageSize, pm.pageSize, pm.codeType]];
 	
 }
 

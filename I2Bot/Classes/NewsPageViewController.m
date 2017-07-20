@@ -45,7 +45,7 @@
 	self.dateLabel.text=[NSString stringWithFormat:@"Updated at %@ %@", self.newsArticle.newsDate, self.newsArticle.newsTime];
 	self.compLabel.text=self.newsArticle.newsCompany;
 	
-	NSString *urlAddress = [NSString stringWithFormat: @"http://www.czcodezone.com/quote/newsdetail.php?key=%@", self.newsArticle.newsKey]; // @"http://www.google.com";
+	NSString *urlAddress = [NSString stringWithFormat: @"http://myi2web/quote/newsdetail.php?key=%@", self.newsArticle.newsKey]; // @"http://www.google.com";
 	
 	//Create a URL object.
 	NSURL *url = [NSURL URLWithString:urlAddress];

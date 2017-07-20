@@ -6,9 +6,9 @@ Stock tracker implemented using Objective-C for iOS
 
 The current system consists of:
 
-1.       Iphone client program
-2.       Crawling program for retrieving and processing data from financial sites and update the data at the remote server and database.
-3.       Server php script and mysql database
+* I2bot: this is the iOS App
+* WinI2Spider: this is the .Net application running on Windows desktop which crawls data from financial sites and update the data at the remote server and database (written in C# using Visual Studio 2005)
+* I2Web: this is the php server script and mysql database script 
 
 The details of each applicaton that constitute the system are described below:
 

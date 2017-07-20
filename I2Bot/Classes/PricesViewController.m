@@ -35,7 +35,7 @@
 -(void) reloadData
 {
 	PriceManager* pm=[PriceManager sharedInstance];
-	[self loadFromUrl: [NSString stringWithFormat: @"http://www.czcodezone.com/quote/price.php?startrowindex=%d&rowcount=%d&quotetype=%@", pm.pageIndex * pm.pageSize, pm.pageSize, pm.codeType]];
+	[self loadFromUrl: [NSString stringWithFormat: @"http://myi2web/quote/price.php?startrowindex=%d&rowcount=%d&quotetype=%@", pm.pageIndex * pm.pageSize, pm.pageSize, pm.codeType]];
 	
 }
 
