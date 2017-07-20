@@ -10,6 +10,8 @@ The current system consists of:
 * WinI2Spider: this is the .Net application running on Windows desktop which crawls data from financial sites and update the data at the remote server and database (written in C# using Visual Studio 2005)
 * I2Web: this is the php server script and mysql database script 
 
+The WinI2Spider program crawls stock site online, then sends the processed data to the url http://myi2web which is then accessed by I2bot iOS app from user's mobile to display the updated stock prices.
+
 The details of each applicaton that constitute the system are described below:
 
 # Part 1. iOS App 
